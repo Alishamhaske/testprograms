@@ -22,7 +22,7 @@ namespace testprograms
             e2.calsalary();
             Console.WriteLine(e2.displaydata());
 
-
+            Console.ReadLine();
         }
     }
     //
@@ -59,6 +59,6 @@ namespace testprograms
         {
             return $"employee id:{emp_id}  employee name:{emp_name} employee salary: {emp_salary} Gross salary: {gross}";
         }
-       
+          
     }
 }

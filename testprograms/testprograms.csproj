@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>testprograms.test</StartupObject>
+    <StartupObject>testprograms.logicalprogram.uniquechar_2str</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,14 +46,44 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="decendingarray.cs" />
     <Compile Include="empdetails.cs" />
     <Compile Include="evenavg.cs" />
     <Compile Include="evenfact_square.cs" />
     <Compile Include="factors.cs" />
+    <Compile Include="alternativeaddtion.cs" />
+    <Compile Include="logicalprogram\halfarrayascending.cs" />
+    <Compile Include="logicalprogram\logicalstringarray.cs" />
+    <Compile Include="logicalprogram\norepeatechar.cs" />
+    <Compile Include="logicalprogram\nthmin.cs" />
+    <Compile Include="logicalprogram\uniquechar_2str.cs" />
+    <Compile Include="logicalprogram\uniqueele_2arr.cs" />
+    <Compile Include="maxnumArray.cs" />
+    <Compile Include="mock\fibo.cs" />
+    <Compile Include="mock\india.cs" />
+    <Compile Include="mock\interface2.cs" />
+    <Compile Include="mock\interfaceimpl.cs" />
+    <Compile Include="mock\primearray.cs" />
+    <Compile Include="mock\primedigitavg.cs" />
+    <Compile Include="mock\reversenum.cs" />
+    <Compile Include="mock\reversestr.cs" />
+    <Compile Include="mock\sortelem.cs" />
+    <Compile Include="mock\stringtoggle.cs" />
     <Compile Include="prime11_21.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="primesum.cs" />
+    <Compile Include="mock\mock1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="reversenum.cs" />
+    <Compile Include="palindrome.cs" />
+    <Compile Include="reversestring.cs" />
+    <Compile Include="sumdigit.cs" />
+    <Compile Include="sumofeven.cs" />
+    <Compile Include="test1.cs" />
+    <Compile Include="test24array\maxchar.cs" />
+    <Compile Include="test24array\maxcharstring.cs" />
+    <Compile Include="test24array\primeavg.cs" />
+    <Compile Include="test24array\sumalternate.cs" />
+    <Compile Include="test24array\sumarray.cs" />
+    <Compile Include="test24array\vowel.cs" />
     <Compile Include="tqwelcome.cs" />
   </ItemGroup>
   <ItemGroup>

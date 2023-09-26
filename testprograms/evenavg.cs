@@ -23,10 +23,12 @@ namespace testprograms
                 {
                     count++;
                     sum =sum+ digit;
-                    avg = sum / count;
+                   
                 }
+                avg = sum / count;
             }
             Console.WriteLine(avg);
+            Console.ReadLine();
         }
     }
 }

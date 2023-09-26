@@ -10,6 +10,8 @@ namespace testprograms
     {
         static void Main(string[] args)
         {
+            //check even didgit than find factor of digit otherwise
+            ///calcluate square of digit
             Console.WriteLine("enter a number:");
             int n = Convert.ToInt32(Console.ReadLine());
             while(n!=0)

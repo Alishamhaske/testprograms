@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace testprograms
 {
-    public class reversenum
+    public class palindrome
     {
         static void Main(string[] args)
         {
             Console.WriteLine("enter a number:");
             int n = Convert.ToInt32(Console.ReadLine());
             int rev = 0;
+            int temp = n;
             while(n>0)
             {
                 int rem = n % 10; 
@@ -20,7 +21,15 @@ namespace testprograms
                 n = n / 10;
                 
             }
-            Console.WriteLine("reverse num:"+rev);
+            if(temp==rev)
+            {
+                Console.WriteLine("palindrome number: ");
+            }
+            else
+            {
+                Console.WriteLine("not palindrome: ");
+            }
+           
 
         }
     }
