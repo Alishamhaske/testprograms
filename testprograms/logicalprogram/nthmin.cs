@@ -8,7 +8,7 @@ namespace testprograms.logicalprogram
 {
     public class nthmin
     {
-        /// 1.	Write a java program to find nth lowest number in an array/arraylist.
+        /// 1.	Write a  program to find nth lowest number in an array/arraylist.
         /// N is less than (length of array – 1)
 
         static void Main(string[] args)

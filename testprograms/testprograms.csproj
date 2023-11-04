@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>testprograms.logicalprogram.uniquechar_2str</StartupObject>
+    <StartupObject>testprograms.evenfact_square</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -52,6 +52,10 @@
     <Compile Include="evenfact_square.cs" />
     <Compile Include="factors.cs" />
     <Compile Include="alternativeaddtion.cs" />
+    <Compile Include="jisa\jisa1.cs" />
+    <Compile Include="jisa\jisa2.cs" />
+    <Compile Include="jisa\jisa3.cs" />
+    <Compile Include="jisa\jisa4.cs" />
     <Compile Include="logicalprogram\halfarrayascending.cs" />
     <Compile Include="logicalprogram\logicalstringarray.cs" />
     <Compile Include="logicalprogram\norepeatechar.cs" />
@@ -59,6 +63,7 @@
     <Compile Include="logicalprogram\uniquechar_2str.cs" />
     <Compile Include="logicalprogram\uniqueele_2arr.cs" />
     <Compile Include="maxnumArray.cs" />
+    <Compile Include="midtestpervious\java_lcxc_logic.cs" />
     <Compile Include="mock\fibo.cs" />
     <Compile Include="mock\india.cs" />
     <Compile Include="mock\interface2.cs" />

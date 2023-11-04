@@ -10,6 +10,7 @@ namespace testprograms
     {
         static void Main(string[] args)
         {
+            int sum = 0;
             int[] arr1 = new int[] { 4, 10, 2, 7, 6, 5 };
           
             for (int i = 0; i < arr1.Length-2; i++)
@@ -18,7 +19,9 @@ namespace testprograms
                 Console.WriteLine(arr1[i] + arr1[i+2]);
 
             }
-          
+
+            
+            Console.ReadLine();
         }
  
     }

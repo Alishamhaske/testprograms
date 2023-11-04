@@ -31,6 +31,7 @@ namespace testprograms.mock
                 }
                 Console.WriteLine(arr[i]);
             }
+            Console.ReadLine();
         }
     }
 }

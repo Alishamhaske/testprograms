@@ -11,8 +11,6 @@ namespace testprograms.test24array
         static void Main(string[] args)
         {
            //2. find the max char from array
-
-
             char[] c = new char[5];
             char max = c[0];
            Console.WriteLine("enter a character:");
@@ -27,7 +25,8 @@ namespace testprograms.test24array
                     max = c[i];
                 }
             }
-            Console.WriteLine(max);
+            Console.WriteLine("max char is "+max);
+            Console.ReadLine();
         }
     }
 }

@@ -21,16 +21,16 @@ namespace testprograms.test24array
             }
             
 
-            for (int i = 0; i < arr1.Length; i++)
+            for (int i = 0; i < arr1.Length-2; i++)
             {
-                if (i % 2 == 0)
-                {
-                    sum = sum + arr1[i];
-                    Console.WriteLine("alternate element:"+arr1[i]);
-                }
+                Console.WriteLine(arr1[i] + arr1[i+2]);
             }
-            Console.WriteLine("sum of alternate element is:"+sum);
+           
 
+
+
+
+            Console.ReadLine();
         }
     }
 }

@@ -32,7 +32,8 @@ namespace testprograms.mock
             }
             Console.WriteLine(ch1);
 
-            string str = new string(ch1);
+            //string str = new string(ch1);
+            Console.ReadLine();
 
         }
     }

@@ -13,18 +13,13 @@ namespace testprograms.mock
 
             string str = "hello";
             char[] ch = str.ToCharArray();
-            string str1 = " ";
-            for(int i=0;i<ch.Length;i++)
+   
+            for (int i = str.Length - 1; i >= 0; i--)
             {
-                str1 = ch[i] + str1;
-              
+                Console.Write(ch[i]);
             }
-            Console.WriteLine(str1);
-            /*for(int i=str.Length-1;i >=0;i--)
-            {
-                Console.Write(ch[i] );
-            }*/
             Console.WriteLine();
+            Console.ReadLine();
         }
     }
 }

@@ -25,12 +25,14 @@ namespace testprograms.logicalprogram
             {
                 arr2[i] = Convert.ToInt32(Console.ReadLine());
             }
+
+            //
             for(int i=0;i<arr1.Length;i++)
             {
                 int cnt = 1;
                 for(int j=0;j<arr2.Length;j++)
                 {
-                    if (arr1[i] == arr2[i])
+                    if (arr1[i] == arr2[j])
                     {
                         cnt++;
                       
@@ -43,6 +45,9 @@ namespace testprograms.logicalprogram
                 }
                 
             }
+
+            Console.ReadLine();
+
         }
     }
 }
